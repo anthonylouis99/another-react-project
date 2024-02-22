@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+}
+#root{
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+    height: 704px;
+    width: 550px;;
+    gap: 20px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+.nav{
+    height:55px;
+    width: 550px;
+    background-color: rgb(224, 50, 50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+       
+}
+
+.nav > span{
+    font-size:15px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row-reverse;
+    width:471px;
+    height: 170px;
+    gap:10px;
+}
+.cards-text{
+    height:144px;
+    width: 326px;
+    padding-top: 10px;
+}
+
+.cards-text > h3{
+    margin: 5px;
+}
+
+.cards-text > p{
+    margin: 5px;
+    font-size: 12px;
+}
+.cards-text > span{
+    font-weight:bold;
+    font-size:13px;
+}
+
+.cards-text > div> a{
+margin-left: 15px;
+color: rgb(173, 169, 169);
+font-size: 12px;
+}
+
+.cards-text > div> img{
+    margin-right: 3px;
+}
+.cards-text > div> span{
+    font-size: 12px;
+}
+.image-div>img{
+height: 165px;
+width: 126px;
+border-radius: 10px;
+}
